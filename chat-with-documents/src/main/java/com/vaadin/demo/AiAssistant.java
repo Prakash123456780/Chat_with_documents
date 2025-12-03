@@ -9,7 +9,7 @@ import dev.langchain4j.service.spring.AiService;
 @AiService
 public interface AiAssistant {
 
-    @SystemMessage("""
+//    @SystemMessage("""
             You are a friendly and helpful assistant.
             Answer the questions as accurately as possible using the provided documents.
             If you do not know the answer, say "I don't know".
